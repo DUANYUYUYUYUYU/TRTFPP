@@ -1,0 +1,12 @@
+The file name is A_BBBB_xwwC，where A=i, ii, iii, iv and v, means five different gestures, BBBB ranges from 0001 to 0140, means 140 samples. C=1, 2 and 3. C=1 means s(2). C=2 means s(3). C=4 means s(4). 
+ 
+So we can get the TR time-frequency phase prints (TRTFPPs) by using MATLAB code TRTFPP1 and TRTFPP2 dealing with A_BBBB_xww3. Remember to modify the file path, and the MATLAB version we used is matlab2018b.
+
+We also package the generated images, including images without noise and images with noise.
+
+You can train and use neural networks with the python code NN. But note that we use the pytorch and GPT arithmetic. We also divided and packaged the training and test sets to you. In addition, we have packaged the trained neural network model for you to use.
+
+Of course, essentially we just use resnet18 to recognize TRTFPPs, which means you can choose your preferred neural network model to recognize TRTFPPs.
+
+This instruction may not be detailed enough, if you have any questions, please contact the author of this paper:
+203772175@qq.com ，Duan Yu.
